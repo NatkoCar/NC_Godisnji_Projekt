@@ -1,0 +1,17 @@
+.column {
+    float: left;
+    width: 20%;
+    height: 900px;
+    background-position: center center;
+    text-align: center;
+    align-content: end;
+    font-size: 30px;
+    color: white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
