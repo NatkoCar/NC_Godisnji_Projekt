@@ -2,7 +2,7 @@ body {
     background-color: #13990e;
 }
 
-header{
+header {
     align-items: center;
     align-content: center;
     justify-items: center;
@@ -15,7 +15,16 @@ header{
 #CST {
     position: relative;
     z-index: 2;
-    mix-blend-mode: multiply;
+    mix-blend-mode: hard-light;
+}
+
+#CST_body {
+    fill: #00ff00;
+    opacity: 1;
+}
+
+#CST_head {
+    fill: #009ad2;
 }
 
 #background-imag {
@@ -23,4 +32,10 @@ header{
     top: 0;
     width: 100%;
     height: auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
