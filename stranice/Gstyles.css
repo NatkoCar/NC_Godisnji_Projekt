@@ -1,4 +1,8 @@
 body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcb7JukAc5r3mrrxXueygdZRt-sBZrZbdgQ&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
     background-color: #13990e;
 }
 
@@ -18,29 +22,50 @@ header {
     transform: translate(200px, 0);
     position: relative;
     z-index: 2;
-    mix-blend-mode: hard-light;
+    mix-blend-mode: normal;
 }
 
 #ST {
-    transform: translate(200px, -50px);
+    transform: translate(202px, -48px);
     position: relative;
     z-index: 2;
-    mix-blend-mode: hard-light;
+    mix-blend-mode: normal;
+}
+
+#JA {
+    transform: translate(202px, -48px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#TE {
+    transform: translate(190px, -63px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#TL {
+    transform: translate(191px, -57px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
 }
 
 #g_body {
-    fill: #e1e851;
-    opacity: 1;
+    fill: #12c233;
+    opacity: 0;
 }
 
 #g_head {
-    fill: #e1e851;
-    opacity: 1;
+    fill: #12c233;
+    opacity: 0;
 }
 
 #g_pickguard {
-    fill: #e1e851;
-    opacity: 1;
+    fill: #12c233;
+    opacity: 0;
 }
 
 #background-image {
