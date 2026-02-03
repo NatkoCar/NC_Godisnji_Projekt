@@ -78,17 +78,14 @@ header {
 .colors1 {
     display: flex;
     position: relative;
-    transform: translate(0px, -675px);
 }
 .colors2 {
     display: flex;
     position: relative;
-    transform: translate(0px, -675px);
 }
 .colors3 {
     display: flex;
     position: relative;
-    transform: translate(0px, -675px);
 }
 
 .color1 {
@@ -119,9 +116,21 @@ header {
     cursor: pointer;
 }
 
+#reset-btn1 {
+    border: 5px solid #0f0;
+}
+
+#reset-btn2 {
+    border: 5px solid #0f0;
+}
+
+#reset-btn3 {
+    border: 5px solid #0f0;
+}
+
 h2 {
     position: relative;
-    transform: translate(0px, -675px);
+    color: white;
     text-align: center;
     font-family: 'Arial', sans-serif;
     font-weight: normal;
