@@ -53,9 +53,79 @@ header {
     mix-blend-mode: normal;
 }
 
+#LP {
+    transform: translate(202px, -58px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#EX76 {
+    transform: translate(198px, -58px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#EX84 {
+    transform: translate(202px, -31px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#J {
+    transform: translate(174px, -43px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#MB {
+    transform: translate(179px, -72px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#P {
+    transform: translate(174px, -52px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#SG {
+    transform: translate(210px, -37px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#STLH {
+    transform: translate(197px, -64px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#TELH {
+    transform: translate(202px, -54px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
+#V {
+    transform: translate(228px, -51px);
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: normal;
+}
+
 #g_body {
     fill: #12c233;
-    opacity: 0;
+    opacity: 1;
 }
 
 #g_head {
@@ -79,10 +149,12 @@ header {
     display: flex;
     position: relative;
 }
+
 .colors2 {
     display: flex;
     position: relative;
 }
+
 .colors3 {
     display: flex;
     position: relative;
@@ -97,6 +169,7 @@ header {
     border: 2px solid #aaa;
     cursor: pointer;
 }
+
 .color2 {
     height: 36px;
     width: 36px;
@@ -106,6 +179,7 @@ header {
     border: 2px solid #aaa;
     cursor: pointer;
 }
+
 .color3 {
     height: 36px;
     width: 36px;
